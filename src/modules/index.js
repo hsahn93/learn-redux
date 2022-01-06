@@ -14,10 +14,11 @@
 import {combineReducers} from 'redux';
 import counter from './counter';
 import todos from './todo';
-
+import color from './color'
 const rootReducer = combineReducers({
   counter,
   todos,
+  color,
 });
 
 export default rootReducer;
